@@ -3,6 +3,7 @@
 A production-level, end-to-end data analytics solution built on the **Brazilian E-Commerce (Olist)** dataset. Demonstrates strong skills in Python, SQL, data engineering, and business intelligence.
 
 ## Project Overview
+link: https://vijaykumar-bs.github.io/Sales-Data-Analytics-Business-Insights-Dashboard/dashboard/index.html
 
 This project processes, transforms, and analyzes structured data from 9 relational CSV sources to generate actionable business insights through an automated pipeline.
 
