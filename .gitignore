@@ -1,0 +1,7 @@
+﻿ecommerce.db
+Data/
+__pycache__/
+*.pyc
+pipeline.log
+venv/
+.env

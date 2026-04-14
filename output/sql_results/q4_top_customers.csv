@@ -1,0 +1,11 @@
+customer_unique_id,customer_city,customer_state,total_orders,total_spent,avg_item_value,avg_review_score
+0a0a92112bd4c708ca5fde585afaa872,rio de janeiro,RJ,1,13440.0,1680.0,1.0
+da122df9eeddfedc1dc1f5349a1a690c,araruama,RJ,2,7388.0,3694.0,5.0
+763c8b1c9c68a0229c42c9fc6f662b93,vila velha,ES,1,7160.0,1790.0,1.0
+dc4802a71eae9be1dd28f5d788ceb526,campo grande,MS,1,6735.0,6735.0,5.0
+459bef486812aa25204be022145caa62,vitoria,ES,1,6729.0,6729.0,
+ff4159b92c40ebe40454e3e6a7c35ed6,marilia,SP,1,6499.0,6499.0,5.0
+4007669dec559734d6f53e029e360987,divinopolis,MG,1,5934.6,989.1,1.0
+eebb5dda148d3893cdaf5b5ca3040ccb,maua,SP,1,4690.0,4690.0,4.0
+48e1ac109decbb87765a3eade6854098,joao pessoa,PB,1,4590.0,4590.0,5.0
+a229eba70ec1c2abef51f04987deb7a5,niteroi,RJ,1,4400.0,2200.0,5.0

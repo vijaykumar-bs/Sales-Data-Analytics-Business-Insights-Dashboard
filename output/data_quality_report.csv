@@ -1,0 +1,44 @@
+table,check,status,detail
+olist_customers_dataset.csv,COLUMNS,PASS,5 columns found
+olist_orders_dataset.csv,COLUMNS,PASS,8 columns found
+olist_order_items_dataset.csv,COLUMNS,PASS,7 columns found
+olist_order_payments_dataset.csv,COLUMNS,PASS,5 columns found
+olist_products_dataset.csv,COLUMNS,PASS,9 columns found
+olist_products_dataset.csv,EXTRA_COLS,INFO,"{'product_length_cm', 'product_width_cm', 'product_photos_qty', 'product_name_lenght', 'product_description_lenght', 'product_weight_g', 'product_height_cm'}"
+olist_sellers_dataset.csv,COLUMNS,PASS,4 columns found
+olist_order_reviews_dataset.csv,COLUMNS,PASS,7 columns found
+olist_order_reviews_dataset.csv,EXTRA_COLS,INFO,"{'review_comment_message', 'review_comment_title'}"
+olist_geolocation_dataset.csv,COLUMNS,PASS,5 columns found
+product_category_name_translation.csv,COLUMNS,PASS,2 columns found
+olist_customers_dataset.csv,PRIMARY_KEY,PASS,"PK=['customer_id'], duplicates=0"
+olist_orders_dataset.csv,PRIMARY_KEY,PASS,"PK=['order_id'], duplicates=0"
+olist_products_dataset.csv,PRIMARY_KEY,PASS,"PK=['product_id'], duplicates=0"
+olist_sellers_dataset.csv,PRIMARY_KEY,PASS,"PK=['seller_id'], duplicates=0"
+olist_orders_dataset.csv,FK_customer_id→olist_customers_dataset.csv.customer_id,PASS,0 orphan values out of 99441 unique
+olist_order_items_dataset.csv,FK_order_id→olist_orders_dataset.csv.order_id,PASS,0 orphan values out of 98666 unique
+olist_order_items_dataset.csv,FK_product_id→olist_products_dataset.csv.product_id,PASS,0 orphan values out of 32951 unique
+olist_order_items_dataset.csv,FK_seller_id→olist_sellers_dataset.csv.seller_id,PASS,0 orphan values out of 3095 unique
+olist_order_payments_dataset.csv,FK_order_id→olist_orders_dataset.csv.order_id,PASS,0 orphan values out of 99440 unique
+olist_order_reviews_dataset.csv,FK_order_id→olist_orders_dataset.csv.order_id,PASS,0 orphan values out of 98673 unique
+olist_customers_dataset.csv,DUPLICATES,PASS,"0 duplicate rows out of 99,441"
+olist_orders_dataset.csv,DUPLICATES,PASS,"0 duplicate rows out of 99,441"
+olist_order_items_dataset.csv,DUPLICATES,PASS,"0 duplicate rows out of 112,650"
+olist_order_payments_dataset.csv,DUPLICATES,PASS,"0 duplicate rows out of 103,886"
+olist_products_dataset.csv,DUPLICATES,PASS,"0 duplicate rows out of 32,951"
+olist_sellers_dataset.csv,DUPLICATES,PASS,"0 duplicate rows out of 3,095"
+olist_order_reviews_dataset.csv,DUPLICATES,PASS,"0 duplicate rows out of 99,224"
+olist_geolocation_dataset.csv,DUPLICATES,WARN,"261831 duplicate rows out of 1,000,163"
+product_category_name_translation.csv,DUPLICATES,PASS,0 duplicate rows out of 71
+olist_orders_dataset.csv,NULLS_order_approved_at,INFO,160 nulls (0.2%)
+olist_orders_dataset.csv,NULLS_order_delivered_carrier_date,INFO,"1,783 nulls (1.8%)"
+olist_orders_dataset.csv,NULLS_order_delivered_customer_date,INFO,"2,965 nulls (3.0%)"
+olist_products_dataset.csv,NULLS_product_category_name,INFO,610 nulls (1.9%)
+olist_products_dataset.csv,NULLS_product_name_lenght,INFO,610 nulls (1.9%)
+olist_products_dataset.csv,NULLS_product_description_lenght,INFO,610 nulls (1.9%)
+olist_products_dataset.csv,NULLS_product_photos_qty,INFO,610 nulls (1.9%)
+olist_products_dataset.csv,NULLS_product_weight_g,INFO,2 nulls (0.0%)
+olist_products_dataset.csv,NULLS_product_length_cm,INFO,2 nulls (0.0%)
+olist_products_dataset.csv,NULLS_product_height_cm,INFO,2 nulls (0.0%)
+olist_products_dataset.csv,NULLS_product_width_cm,INFO,2 nulls (0.0%)
+olist_order_reviews_dataset.csv,NULLS_review_comment_title,INFO,"87,656 nulls (88.3%)"
+olist_order_reviews_dataset.csv,NULLS_review_comment_message,INFO,"58,247 nulls (58.7%)"
