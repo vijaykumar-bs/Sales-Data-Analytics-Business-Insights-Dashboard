@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_PATH = os.path.join(BASE_DIR, 'ecommerce.db')
-DASHBOARD_DIR = os.path.join(BASE_DIR, 'dashboard')
+DASHBOARD_DIR = BASE_DIR
 
 
 def get_conn():
